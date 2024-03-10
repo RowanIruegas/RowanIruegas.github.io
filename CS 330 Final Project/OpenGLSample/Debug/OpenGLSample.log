@@ -1,0 +1,27 @@
+﻿  Milestone4.cpp
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\shader.h(57,34): warning C4101: 'e': unreferenced local variable
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(278,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(362,17): warning C4305: 'return': truncation from 'int' to 'bool'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(410,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(411,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(415,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(416,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(418,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(419,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(429,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(523,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(524,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(531,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(532,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(539,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(540,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(547,54): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(548,57): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(556,49): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Fraps\CS 330\CS 330 Final Project\OpenGLSample\Milestone4.cpp(557,52): warning C4305: 'argument': truncation from 'double' to 'float'
+  shader.cpp
+  Source.cpp
+  Generating Code...
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  OpenGLSample.vcxproj -> D:\Fraps\CS 330\CS 330 Final Project\Debug\OpenGLSample.exe

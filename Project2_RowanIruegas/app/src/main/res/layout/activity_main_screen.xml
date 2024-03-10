@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Main_Screen">
+
+    <Button
+        android:id="@+id/add_goal"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Add Goal"
+        android:translationX="110dp"
+        android:translationY="295dp" />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Sign-Out"
+        android:translationX="145dp"
+        android:translationY="340dp" />
+
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Goal Weight"
+        android:inputType="text"
+        android:translationX="-95dp"
+        android:translationY="295dp" />
+
+    <Button
+        android:id="@+id/edit_data"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Edit Weight"
+        android:translationX="110dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/goal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Goal Weight"
+        android:translationX="-160dp"
+        android:translationY="255dp" />
+
+    <TextView
+        android:id="@+id/goal_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFE800"
+        android:text="Goal Weight: "
+        android:translationX="-155dp"
+        android:translationY="340dp" />
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:text="User_Information"
+        android:textSize="20dp"
+        android:translationX="-100dp"
+        android:translationY="5dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want Notifications?"
+        android:translationX="230dp"
+        android:translationY="5dp" />
+
+    <GridView
+        android:id="@+id/grid_display"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:background="#BACACA"
+        android:translationY="80dp"></GridView>
+
+
+    <TextView
+        android:id="@+id/grid_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Grid"
+        android:translationX="5dp"
+        android:translationY="60dp" />
+
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Add Weight"
+        android:translationX="110dp"
+        android:translationY="155dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="text"
+        android:translationX="-95dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/add_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Add / Edit / Delete Daily Weight: Enter information then select the appropriate action for your needs."
+        android:translationX="2dp"
+        android:translationY="130dp" />
+
+    <Button
+        android:id="@+id/delete_data"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Delete Weight"
+        android:translationX="110dp"
+        android:translationY="245dp" />
+
+    <TextView
+        android:id="@+id/display_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Goal"
+        android:textSize="30dp"
+        android:translationX="-75dp"
+        android:translationY="340dp" />
+
+</RelativeLayout>
