@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    tools:context=".CalorieFragment">
+
+    <EditText
+        android:id="@+id/meal_input"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/i_e_2"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/add_calorie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <Button
+        android:id="@+id/add_calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/add"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorie_input" />
+
+    <ListView
+        android:isScrollContainer="false"
+        android:id="@+id/listView"
+        android:layout_width="390dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/meal_change"
+        android:layout_width="182dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/calorie_day_i_e_3"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <Button
+        android:id="@+id/update_calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/update"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_calorie" />
+
+    <Button
+        android:id="@+id/delete_calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/delete"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/new_calorie"
+        app:layout_constraintTop_toBottomOf="@+id/calorie_input" />
+
+    <EditText
+        android:id="@+id/calorie_input"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="21dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/i_e_1203"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/delete_calorie"
+        app:layout_constraintEnd_toStartOf="@+id/meal_change"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <EditText
+        android:id="@+id/new_calorie"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="112dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/new_calorie_i_e_2346"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView" />
+
+    <TextView
+        android:id="@+id/calorie_instructions"
+        android:layout_width="389dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/enter_the_your_calorie_information_according_to_the_indicated_examples_within_each_text_box_then_press_the_button_that_matches_your_desired_action"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/meal_change"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

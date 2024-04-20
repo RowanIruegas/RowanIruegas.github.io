@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    tools:context=".WeightFragment">
+
+    <EditText
+        android:id="@+id/day_input"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/i_e_3"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightLineGraph"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/i_e_265"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightLineGraph"
+        tools:ignore="TextFields" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/weightLineGraph"
+        android:layout_width="390dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="11dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/goal_input"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="27dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/goal_i_e_186"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightLineGraph" />
+
+    <TextView
+        android:id="@+id/goal_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/_000lbs"
+        android:textColor="@color/green"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/day_change"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="191dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/update_day_i_e_4"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_weight"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/delete_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="53dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/delete"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/add_goal"
+        app:layout_constraintStart_toEndOf="@+id/add_weight"
+        app:layout_constraintTop_toBottomOf="@+id/weight_input" />
+
+    <Button
+        android:id="@+id/add_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/add"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/delete_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_input" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:contentDescription="@string/goal_arrow_pointer"
+        android:src="@drawable/baseline_keyboard_double_arrow_down_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_goal" />
+
+    <EditText
+        android:id="@+id/new_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="190dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/new_weight_i_e_254"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_change"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/add_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/goal"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/delete_weight"
+        app:layout_constraintTop_toBottomOf="@+id/goal_input" />
+
+    <Button
+        android:id="@+id/update_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/update"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_weight" />
+
+    <TextView
+        android:id="@+id/weight_instructions"
+        android:layout_width="390dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/enter_the_your_weight_information_according_to_the_indicated_examples_within_each_text_box_then_press_the_button_that_matches_your_desired_action"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/day_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

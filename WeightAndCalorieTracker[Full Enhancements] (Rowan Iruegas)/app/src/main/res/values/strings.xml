@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">WeightAndCalorieTracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit">EXIT</string>
+    <string name="big_red_sign_out_button">BIG RED SIGN-OUT BUTTON</string>
+    <string name="input_weight_information">Input Weight Information</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="original_weight">Original Weight</string>
+    <string name="new_weight">New Weight</string>
+    <string name="input_goal">Input Goal</string>
+    <string name="goal">Goal</string>
+    <string name="_000lbs">000Lbs</string>
+    <string name="please_enter_your_number_below_and_press_the_quot_request_notifications_quot_button_if_you_wish_to_opt_out_of_notifications_go_to_settings_weight_and_calorie_tracker_notifications_from_here_you_can_toggle_notifications_off"><![CDATA[Please enter your number below and press the \"Request Notifications\" Button. If you wish to opt out of notifications go to Settings > Weight and Calorie Tracker > Notifications. From here you can toggle notifications off.]]></string>
+    <string name="phone_number">Phone Number</string>
+    <string name="request_notifications">Request Notifications</string>
+    <string name="goal_arrow_pointer">Goal Arrow Pointer</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="application_logo">Application Logo</string>
+    <string name="button">Button</string>
+    <string name="input_calorie_info">Input Calorie Info</string>
+    <string name="original_calories">Original Calories</string>
+    <string name="new_calories">New Calories</string>
+    <string name="i_e_day_1">*i.e day 1</string>
+    <string name="i_e_1">i.e. 1</string>
+    <string name="i_e_265">*i.e. 265</string>
+    <string name="i_e_3">*i.e. 3</string>
+    <string name="i_e_1203">*i.e. 1203</string>
+    <string name="i_e_meal">*i.e. Meal</string>
+    <string name="i_e_2">*i.e. 2</string>
+    <string name="calorie_day">Calorie Day</string>
+    <string name="calorie_day_i_e_3">Calorie Day *i.e. 3</string>
+    <string name="new_calorie_i_e_2346">New Calorie *i.e.2346</string>
+    <string name="update_day_i_e_4">Update Day *i.e. 4</string>
+    <string name="new_weight_i_e_254">New Weight *i.e. 254</string>
+    <string name="goal_i_e_186">Goal *i.e. 186</string>
+    <string name="phone_number_1234567899">Phone Number (1234567899)</string>
+    <string name="enter_the_your_weight_information_according_to_the_indicated_examples_within_each_text_box_then_press_the_button_that_matches_your_desired_action">Enter the your weight information according to the indicated examples within each text box. Then press the button that matches your desired action.</string>
+    <string name="enter_the_your_calorie_information_according_to_the_indicated_examples_within_each_text_box_then_press_the_button_that_matches_your_desired_action">Enter the your calorie information according to the indicated examples within each text box. Then press the button that matches your desired action.</string>
+</resources>
