@@ -1,10 +1,14 @@
 ## Rowan Iruegas CS 499 ePortfolio
-[Placeholder Text]
+### Introduction
+Artifact: CS 360 Weight Tracking Application
+Author: Rowan Iruegas
+
+My name is Rowan Iruegas, a to be alumni from Southern New Hampshire University. My prospect degree is a Bachelor of Science in Computer Science. This is my ePortfolio demonstrating the skills I have obtained over my time in the Computer Science program by showing my work on enhancing one artifact over three categories. The following ePortfolio will demonstrate enhancements in Software Design and Engineering, Algorithms and Data Strcuture, as well as Databases.
 
 ### Table of Contents
   1. Professional Self Assessment
   2. Artifact Introduction & Code Review
-  4. Enhancements & Enhancement Narrative
+  3. Enhancements & Enhancement Narrative
 
 ### 1. Professional Self Assessment
 
@@ -17,19 +21,40 @@ I have spent the past two months enhancing one artifact in line with three categ
 ### 2. Artifact Introduction & Code Review
 
 Code Review:
-[Link]
+[Informal Code Review]()
 
 Initial Artifact Code:
-
 [CS 360 Weight Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/CS360WeightTrackingApplication(Rowan%20Iruegas))
 
 Enhanced Artifact Code:
-
 [Weight and Calorie Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/WeightAndCalorieTracker%5BFull%20Enhancements%5D%20(Rowan%20Iruegas))
 
 ### 3. Enhancements & Enhancement Narrative
 
-  1. [Placeholder List]
-  2. [Placeholder List]
+  I. Software Design & Engineering
+    1. UI/UX redesign and alignment
+    2. Full application rebuild
+    3. Additional calorie screen
+    4. List view calorie display
+    6. New Line graph for weight display
+    7. Bottom bar navigation system
+    
+  II. Algorithms & Data Structure
+    1. Revamp database accesss
+    2. Remove unnecessary functions and activities
+    3. Additional calorie CRUD functions
+    4. Reduce application loading time
+    5. Implementation of Fragments
+    6. Revamp code organization
+    7. Input compatability checks
+    8. SMS checks for permissions and goal
+    
+  III. Database
+    1. Multiple account compatability
+    2. New database table structure
+    3. Primary and foreign key implementation
+    4. Unique username system
+    5. Updated CRUD
+    6. Phone number and goal storage
 
-[Place Holder Text]
+*Enhancements Narrative*
