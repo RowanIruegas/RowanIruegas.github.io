@@ -20,10 +20,12 @@ Code Review:
 [Link]
 
 Initial Artifact Code:
+
 [CS 360 Weight Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/CS360WeightTrackingApplication(Rowan%20Iruegas))
 
 Enhanced Artifact Code:
-[Weight and Calorie Tracking Application]
+
+[Weight and Calorie Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/WeightAndCalorieTracker%5BFull%20Enhancements%5D%20(Rowan%20Iruegas))
 
 ### 3. Enhancements & Enhancement Narrative
 
