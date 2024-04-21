@@ -21,7 +21,7 @@ I have spent the past two months enhancing one artifact in line with three categ
 ### 2. Artifact Introduction & Code Review
 
 Code Review:
-[Informal Code Review]()
+[Informal Code Review](https://www.youtube.com/watch?v=nD-JtrWCdlQ)
 
 Initial Artifact Code:
 [CS 360 Weight Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/CS360WeightTrackingApplication(Rowan%20Iruegas))
@@ -31,30 +31,38 @@ Enhanced Artifact Code:
 
 ### 3. Enhancements & Enhancement Narrative
 
-  I. Software Design & Engineering
-    1. UI/UX redesign and alignment
-    2. Full application rebuild
-    3. Additional calorie screen
-    4. List view calorie display
-    6. New Line graph for weight display
-    7. Bottom bar navigation system
+**I. Software Design & Engineering**  
+  1. UI/UX redesign and alignment  
+  2. Full application rebuild  
+  3. Additional calorie screen  
+  4. List view calorie display  
+  6. New Line graph for weight display  
+  7. Bottom bar navigation system  
     
-  II. Algorithms & Data Structure
-    1. Revamp database accesss
-    2. Remove unnecessary functions and activities
-    3. Additional calorie CRUD functions
-    4. Reduce application loading time
-    5. Implementation of Fragments
-    6. Revamp code organization
-    7. Input compatability checks
-    8. SMS checks for permissions and goal
+**II. Algorithms & Data Structure**  
+  1. Revamp database accesss  
+  2. Remove unnecessary functions and activities  
+  3. Additional calorie CRUD functions  
+  4. Reduce application loading time  
+  5. Implementation of Fragments  
+  6. Revamp code organization  
+  7. Input compatability checks  
+  8. SMS checks for permissions and goal  
     
-  III. Database
-    1. Multiple account compatability
-    2. New database table structure
-    3. Primary and foreign key implementation
-    4. Unique username system
-    5. Updated CRUD
-    6. Phone number and goal storage
+**III. Database**  
+  1. Multiple account compatability  
+  2. New database table structure  
+  3. Primary and foreign key implementation  
+  4. Unique username system  
+  5. Updated CRUD  
+  6. Phone number and goal storage  
 
-*Enhancements Narrative*
+ **IV. General**  
+  1. Class file header comments
+  2. Descriptive in-line comments
+  3. Function header comments
+  4. Code style and consistency
+  5. Updated naming conventions
+  6. Code readability
+
+**Enhancements Narrative**
