@@ -7,8 +7,10 @@ My name is Rowan Iruegas, a to be alumni from Southern New Hampshire University.
 
 ### Table of Contents
   1. Professional Self Assessment
-  2. Artifact Introduction & Code Review
-  3. Enhancements & Enhancement Narrative
+  2. Course Outcomes
+  3. Artifact Introduction & Code Review
+  4. Enhancements
+  5. Enhancement Narrative
 
 ### 1. Professional Self Assessment
 
@@ -18,7 +20,14 @@ Within the Computer Science program, I have dedicated a great deal of time worki
 
 I have spent the past two months enhancing one artifact in line with three categories. Software design and engineering, algorithms and data structure, and lastly databases. Each enhancement is built together to achieve the 5 outcomes listed below. The artifact I chose to work with as the basis for the enhancements is a mobile weight tracking application that was initially created during my time on the CS 360 course. I have taken the time to rebuild the application from scratch, changing the layout system from a relative layout to a constraint layout. I have also updated the navigation system for the application and aligned the UI/UX with user needs. Additional features such as a calorie screen have also been added alongside necessary database tables. The display for user’s weight information has also been updated to a line graph to visually demonstrate the progress of the changes in weight. Lastly, the username/password security system also holds user specific information so multiple users can log into the application and see their specific information. Each addition has been made to enhance the application to overcome the shortcomings of the initial version.
 
-### 2. Artifact Introduction & Code Review
+### 2. Course Outcomes
+  - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+  - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+  - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices
+  - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+  - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+
+### 3. Artifact Introduction & Code Review
 
 Code Review:
 [Informal Code Review](https://www.youtube.com/watch?v=nD-JtrWCdlQ)
@@ -29,7 +38,7 @@ Initial Artifact Code:
 Enhanced Artifact Code:
 [Weight and Calorie Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/WeightAndCalorieTracker%5BFull%20Enhancements%5D%20(Rowan%20Iruegas))
 
-### 3. Enhancements & Enhancement Narrative
+### 4. Enhancements
 
 **I. Software Design & Engineering**  
   1. UI/UX redesign and alignment  
@@ -65,4 +74,4 @@ Enhanced Artifact Code:
   5. Updated naming conventions
   6. Code readability
 
-**Enhancements Narrative**
+### 5. Enhancement Narrative
