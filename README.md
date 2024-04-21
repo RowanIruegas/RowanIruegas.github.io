@@ -16,7 +16,14 @@ I have spent the past two months enhancing one artifact in line with three categ
 
 ### 2. Artifact Introduction & Code Review
 
-[INSERT LINK]
+Code Review:
+[Link]
+
+Initial Artifact Code:
+[CS 360 Weight Tracking Application](https://github.com/RowanIruegas/RowanIruegas.github.io/tree/main/CS360WeightTrackingApplication(Rowan%20Iruegas))
+
+Enhanced Artifact Code:
+[Weight and Calorie Tracking Application]
 
 ### 3. Enhancements & Enhancement Narrative
 
